@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Explosivo by csprance</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Explosivo</h1>
+        <p>A modo kit for toggling morph maps on meshes to bake normal maps</p>
+
+        <p class="view"><a href="https://github.com/csprance/Explosivo">View the Project on GitHub <small>csprance/Explosivo</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/csprance/Explosivo/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/csprance/Explosivo/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/csprance/Explosivo">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="explosivo" class="anchor" href="#explosivo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Explosivo!!</h1>
+
+<p>A modo kit by <a href="https://github.com/csprance" class="user-mention">@csprance</a> to toggle morphs on and off for baking things wth Explode morph maps.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>This is a modo kit so install it like normal. I've only tested this on Modo 10, but I don't think it's doing anything
+fancy. Let me know if you run into any issues and if it works on other versions of modo!</p>
+
+<ul>
+<li>Extract/Clone into <code>%appdata%/Luxology/Kits</code>
+</li>
+<li>Restart modo</li>
+</ul>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+
+<ul>
+<li>
+<code>Click</code> the Explosivo button to toggle the morph</li>
+<li>
+<code>Alt + Click</code> the Explosivo button to reset all selected meshes to unexploded</li>
+</ul>
+
+<h2>
+<a id="whats-going-on" class="anchor" href="#whats-going-on" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whats going on</h2>
+
+<p>The actual command being fired is either <code>Explosivo.toggle</code> or <code>Explosivo.toggle other_morph_to_toggle</code> firing this
+command with meshes selected will apply a previously defined morph to the mesh and set a tag on the mesh
+indicating that the mesh is currently exploded. This way you can toggle explodes per mesh or all at once.</p>
+
+<p>The other command that gets run is <code>Explosivo.delete</code> or <code>Explosivo.delete other_morph_to_toggle</code> which will remove any
+applied morph maps from any selected meshes instead of toggling them. This is handy if you have some toggled on and some
+off you can quickly get them all to off and then on again.</p>
+
+<h2>
+<a id="uninstallation-process" class="anchor" href="#uninstallation-process" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Uninstallation process</h2>
+
+<ul>
+<li>Delete <code>csprance_explosivo</code> from <code>%appdata%/Luxology/Kits</code>
+</li>
+</ul>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+
+<ul>
+<li>Chris Sprance - All the Things</li>
+<li>Thanks to the guys in the modo Developers Channel. Super friendly bunch of dudes helped me a lot.</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/csprance">csprance</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
