@@ -12,9 +12,8 @@ fancy. Let me know if you run into any issues and if it works on other versions 
 * `Alt + Click` the Explosivo button to reset all selected meshes to unexploded
 
 ## Video Guide
-![Click For Video](http://www.csprance.com/shots/2016-05-09_23-14-51a6ce51b8-e066-4c36-a16d-ab4189e182d5.png)
 
-
+[![Click For Video](http://www.csprance.com/shots/2016-05-09_23-14-51a6ce51b8-e066-4c36-a16d-ab4189e182d5.png)](https://youtu.be/rXcz94eqZy4 "Video Guide")
 ## Whats going on
 The actual command being fired is either `Explosivo.toggle` or `Explosivo.toggle other_morph_to_toggle` firing this
 command with meshes selected will apply a previously defined morph to the mesh and set a tag on the mesh
